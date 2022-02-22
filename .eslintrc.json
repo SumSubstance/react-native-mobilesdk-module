@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react", "react-native", "react-hooks"],
+  "root": true,
+  "env": {
+    "react-native/react-native": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": { "jsx": true }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": ["eslint:recommended", "plugin:react-hooks/recommended"],
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/no-deprecated": "error",
+    "react/jsx-no-undef": "error",
+    "react/react-in-jsx-scope": "error",
+    "react/no-unsafe": "error"
+  }
+}

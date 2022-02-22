@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SumSub React Native Demo</string>
+    <string name="sns_gallery_type" translatable="false">*/*</string>
+</resources>
