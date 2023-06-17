@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.authors      = { "SumSub" => "support@sumsub.com" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :http => "file:" + __dir__ + "/" }
+  s.source       = { :path => "." }
 
   s.source_files = "ios/**/*.{h,c,m,swift}"
   s.requires_arc = true
